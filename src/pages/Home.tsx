@@ -52,7 +52,7 @@ const Home = () => {
         <div className="my-24 flex flex-col md:flex-row items-center md:items-start gap-8">
           <div className="md:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1616587223057-8bb133a97eb2?auto=format&fit=crop&q=80" 
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80" 
               alt="About Us" 
               className="rounded-xl-custom w-full h-auto object-cover"
             />
