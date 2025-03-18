@@ -15,25 +15,25 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-2xl font-light tracking-[0.2em] text-neutral-800">
-            SRK INTERIOR
+            SRK INTERIORS
           </Link>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-12 uppercase text-sm">
             <Link to="/" className={`nav-link ${isActive('/')}`}>
-              Portfolio
+              Home
             </Link>
             <Link to="/projects" className={`nav-link ${isActive('/projects')}`}>
-              Projects
+              Completed Projects
             </Link>
             <Link to="/designs" className={`nav-link ${isActive('/designs')}`}>
-              Services
+              Designs
             </Link>
             <Link to="/about" className={`nav-link ${isActive('/about')}`}>
               About
             </Link>
             <Link to="/contact" className={`nav-link ${isActive('/contact')}`}>
-              Contact
+              Contact us
             </Link>
           </div>
 
@@ -59,21 +59,21 @@ const Navbar = () => {
                 className={`nav-link ${isActive('/')}`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Portfolio
+                Home
               </Link>
               <Link 
                 to="/projects" 
                 className={`nav-link ${isActive('/projects')}`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Projects
+                Completed Projects
               </Link>
               <Link 
                 to="/designs" 
                 className={`nav-link ${isActive('/designs')}`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Services
+                Designs
               </Link>
               <Link 
                 to="/about" 
@@ -87,7 +87,7 @@ const Navbar = () => {
                 className={`nav-link ${isActive('/contact')}`}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+                Contact us
               </Link>
             </div>
           </div>
