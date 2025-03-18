@@ -29,9 +29,6 @@ const Navbar = () => {
             <Link to="/designs" className={`nav-link ${isActive('/designs')}`}>
               Designs
             </Link>
-            <Link to="/about" className={`nav-link ${isActive('/about')}`}>
-              About
-            </Link>
             <Link to="/contact" className={`nav-link ${isActive('/contact')}`}>
               Contact us
             </Link>

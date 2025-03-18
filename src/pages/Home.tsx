@@ -27,7 +27,7 @@ const Home = () => {
         <div className="mb-24">
           <div className="rounded-xl-custom overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80"
+              src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80"
               alt="Hero"
               className="w-full h-[80vh] object-cover"
             />
@@ -52,7 +52,7 @@ const Home = () => {
         <div className="my-24 flex flex-col md:flex-row items-center md:items-start gap-8">
           <div className="md:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80" 
+              src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80" 
               alt="About Us" 
               className="rounded-xl-custom w-full h-auto object-cover"
             />
