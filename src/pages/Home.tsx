@@ -36,8 +36,33 @@ const Home = () => {
             <h1 className="text-4xl font-light text-neutral-800 mb-4">
               Creating timeless spaces that inspire and elevate everyday living
             </h1>
-            <p className="text-neutral-600">
+            <p className="text-neutral-600 mb-6">
               We blend contemporary design with natural elements to create harmonious interiors that reflect your unique style and needs.
+            </p>
+            <a
+              href="/consultation"
+              className="inline-block px-12 py-4 bg-[#f5deb3] text-neutral-800 rounded-full hover:bg-[#e0c6a7] transition-colors duration-300"
+            >
+              Book Consultation
+            </a>
+          </div>
+        </div>
+
+        {/* About Us Section */}
+        <div className="my-24 flex flex-col md:flex-row items-center md:items-start gap-8">
+          <div className="md:w-1/2">
+            <img 
+              src="https://images.unsplash.com/photo-1616587223057-8bb133a97eb2?auto=format&fit=crop&q=80" 
+              alt="About Us" 
+              className="rounded-xl-custom w-full h-auto object-cover"
+            />
+          </div>
+          <div className="md:w-1/2">
+            <h2 className="text-3xl font-light text-neutral-800 mb-4">About Us</h2>
+            <p className="text-neutral-600">
+              At <strong>SRK Interiors</strong>, we specialize in high-quality <strong>renovations</strong> and <strong>interior designing</strong>. 
+              Our mission is to transform your spaces with creativity, functionality, and elegance. Whether it’s a home, office, or commercial project, 
+              we bring expertise and passion to every detail.
             </p>
           </div>
         </div>
@@ -59,34 +84,6 @@ const Home = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* About Us Section */}
-        <div className="my-24 text-center">
-          <h2 className="text-3xl font-light text-neutral-800 mb-4">About Us</h2>
-          <p className="text-neutral-600 max-w-3xl mx-auto">
-            At <strong>SRK Interiors</strong>, we specialize in high-quality <strong>renovations</strong> and <strong>interior designing</strong>. 
-            Our mission is to transform your spaces with creativity, functionality, and elegance. Whether it’s a home, office, or commercial project, 
-            we bring expertise and passion to every detail.
-          </p>
-        </div>
-
-        {/* CTA Section */}
-        <div className="my-24 text-center">
-          <Link
-            to="/contact"
-            className="inline-block px-12 py-4 border border-neutral-300 text-neutral-800 rounded-full hover:bg-neutral-800 hover:text-white transition-colors duration-300"
-          >
-            Start Your Project
-          </Link>
-          <div className="mt-6">
-            <Link
-              to="/consultation"
-              className="inline-block px-12 py-4 bg-blue-600 text-white rounded-full hover:bg-blue-800 transition-colors duration-300"
-            >
-              Book Consultation
-            </Link>
-          </div>
         </div>
       </div>
     </div>
