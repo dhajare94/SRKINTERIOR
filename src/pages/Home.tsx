@@ -61,6 +61,16 @@ const Home = () => {
           ))}
         </div>
 
+        {/* About Us Section */}
+        <div className="my-24 text-center">
+          <h2 className="text-3xl font-light text-neutral-800 mb-4">About Us</h2>
+          <p className="text-neutral-600 max-w-3xl mx-auto">
+            At <strong>SRK Interiors</strong>, we specialize in high-quality <strong>renovations</strong> and <strong>interior designing</strong>. 
+            Our mission is to transform your spaces with creativity, functionality, and elegance. Whether it’s a home, office, or commercial project, 
+            we bring expertise and passion to every detail.
+          </p>
+        </div>
+
         {/* CTA Section */}
         <div className="my-24 text-center">
           <Link
@@ -69,6 +79,14 @@ const Home = () => {
           >
             Start Your Project
           </Link>
+          <div className="mt-6">
+            <Link
+              to="/consultation"
+              className="inline-block px-12 py-4 bg-blue-600 text-white rounded-full hover:bg-blue-800 transition-colors duration-300"
+            >
+              Book Consultation
+            </Link>
+          </div>
         </div>
       </div>
     </div>
