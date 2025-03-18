@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f5f2ef];
+  }
+}
+
+.nav-link {
+  @apply relative font-light tracking-widest text-neutral-600 hover:text-neutral-900 transition-colors;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute left-0 bottom-0 w-0 h-px bg-neutral-400 transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.rounded-xl-custom {
+  border-radius: 2rem;
+}
