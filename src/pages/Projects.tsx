@@ -3,28 +3,34 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: "Minimalist Haven",
+      title: "Home Renovation",
       category: "Residential",
-      image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80",
-      description: "A serene living space embracing minimalist principles and natural materials."
+      image: "https://i.ibb.co/zVmMXrL2/1.jpg",
+      description: "Complete renovation of a 2BHK House in Platinum Experia Kalamboli"
     },
     {
-      title: "Urban Sanctuary",
+      title: "Renovation of a 3BHK",
       category: "Interior Design",
-      image: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80",
-      description: "Modern urban apartment transformed into a peaceful retreat."
+      image: "https://i.ibb.co/9mMmcGvp/2.jpg",
+      description: "Luxurious Transformation of a 3BHK Residence in Platinum Experia Kalamboli."
     },
     {
-      title: "Contemporary Living",
+      title: "2BHK Interior Design",
       category: "Renovation",
-      image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80",
-      description: "Complete renovation focusing on open spaces and natural light."
+      image: "https://media.designcafe.com/wp-content/uploads/2020/09/25151904/2bhk-apartment-living-room-interior-design.jpg",
+      description: "Exquisite 2BHK Luxury Suite Design in Krishna Apartment Kamothe."
     },
     {
-      title: "Elegant Simplicity",
-      category: "Design",
-      image: "https://images.unsplash.com/photo-1617103996702-96ff29b1c467?auto=format&fit=crop&q=80",
-      description: "Sophisticated design emphasizing clean lines and subtle textures."
+      title: "2BHK Interior Renovate",
+      category: "Residental",
+      image: "https://media.designcafe.com/wp-content/uploads/2021/06/30163556/modern-2bhk-kitchen-design-with-breakfast-countertop-with-two-tall-chairs.jpg",
+      description: "Sophisticated design in Galaxy Apartment Kharghar."
+    },
+    {
+      title: "2BHK Interior Designed",
+      category: "Residental",
+      image: "https://media.designcafe.com/wp-content/uploads/2021/08/02080107/living-room-3bhk-interior-design-with-brick-wall-cladding.jpg",
+      description: "Industrial loft transformed into modern living space in Luxury Apartment Chunabhatti."
     }
   ];
 
